@@ -1,11 +1,27 @@
-    h1{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 40px;
-    color: crimson
-    }
     th{
         font-style: italic;
         font-weight: bolder;
         color: purple;
+    }
+    body{
+        background-color: rgb(0, 247, 255)
+    }
+
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(101, 10, 247);
+        font-size: xx-large;
+    }
+    #manimani{
+        font-family: cursive;
+        font-size: xx-large;
+        color: rgb(255, 0, 0)
+    }
+    .image{
+        height: 200px;
+        width: 350px;
+    }
+    .car{
+        height: 200px;
+        width: 210px; 
     }
