@@ -48,5 +48,17 @@
     *{
         margin: 15px;
     }
-
+    .minecraft1{
+        width: 350px;
+        height: 150;
+        border: solid black 2px;
+        padding: 50px;
+        background-color: rgba(0, 0, 255, 0.562);
+        position: static;
+        font-family: sans-serif;
+        font-size: 40px
+    }
+    .arre{
+        position: fixed;
         
+    }
