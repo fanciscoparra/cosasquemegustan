@@ -62,3 +62,12 @@
         position: fixed;
         margin-left: 350px;
     }
+    #study:hover{
+        transition-duration: 0.55s;
+        transition-timing-function: ease-in;
+        transform: rotate(360deg);
+    }
+    #pachon{
+        translate: (180cm);
+        transition-delay: 2s;
+    }
