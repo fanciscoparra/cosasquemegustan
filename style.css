@@ -62,12 +62,41 @@
         position: fixed;
         margin-left: 350px;
     }
-    #study:hover{
-        transition-duration: 0.55s;
-        transition-timing-function: ease-in;
-        transform: rotate(360deg);
+
+    .minecraft1{
+        animation-name: animacion;
+        animation-duration: 8000ms;
+        animation-delay: 0s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1 ;
+        animation-direction: ;
     }
-    #pachon{
-        translate: (180cm);
-        transition-delay: 2s;
+    @keyframes animacion{
+        0%{
+
+        }
+        20%{
+            transform: rotateZ(260deg)
+        }
+        60%{
+            transform:rotateX(-20deg)
+        }
+        70%{
+            transform:rotateX(20deg)
+        }
+        75%{
+            transform: rotateZ(50deg)
+        }
+        80%{
+            transform:rotateX(-20deg)
+        }
+        85%{
+            transform:rotateX(20deg)
+        }
+        90%{
+            transform: rotateZ(50deg)
+        }
+        100%{
+            
+        }
     }
